@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Kirr.co | {% block title %}Shorten that URL{% endblock title %}</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+	<link href="https://getbootstrap.com/docs/4.5/examples/cover/cover.css" rel="stylesheet">
+	<style >
+		body{
+			background-color: #3e8198
+		}
+	</style>
+
+</head>
+<body >
+	<div class="container h-100">
+		<div class="row h-100 justify-content-center align-items-center">
+			<main role="main" class="inner cover">
+				{% block content %}
+				{% endblock content %}
+			</main>
+		</div>
+	</div>
+
+</body>
+</html>
